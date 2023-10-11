@@ -52,7 +52,7 @@ const DocumentList: React.FC = () => {
       </div>
       {listStatus === "idle" && documents.length === 0 && (
         <div className="flex flex-col items-center mt-4">
-          <p className="font-bold text-lg">There's nothing here yet...</p>
+          <p className="font-bold text-lg">There's nothing here yet in Data Marketplace Playground...</p>
           <p className="mt-1">Upload your first document to get started!</p>
         </div>
       )}
